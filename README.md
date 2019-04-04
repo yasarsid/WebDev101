@@ -4,20 +4,49 @@ Code from Brown Bag Titled - **Practical Introduction of Web Development**
 
 The brown bag will be divided into various Objectives
 
-1. Objective 1 - Introduction to React, TypeScript and Event Propagation
+1. `Objective 1 - Introduction to React, TypeScript and Event Propagation`
    1. A look at the overall project structure.
    1. Look at Click Event Propagation in Search component
-1. Objective 2 - Builders/Components
+1. `Objective 2 - Builders/Components`
    1. Build out components for ProductDetail, Filters and ProductDetailView.
-1. Objective 3 - Publish Subscribe
+1. `Objective 3 - Publish Subscribe`
    1. When filters are selected - The Product list should be updated.
    1. Build out the PubSub Infrastructure
-1. Objective 4 - Promises and Chaining
+1. `Objective 4 - Promises and Chaining`
    1. Introduce Promises and Chaining
-1. Objective 5 - Calling REST APIs and Long Polling
+1. `Objective 5 - Calling REST APIs and Long Polling`
    1. Calling RESTful APIs and Long Polling
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Prerequisites
+
+This repository uses NPM for managing dependcies, please download node from [Here](https://nodejs.org/en/download/ "NodeJS Download").
+## Getting Start 
+
+Clone the repository with the following command
+```
+git clone https://github.com/yasarsid/WebDev101.git
+```
+
+In each folder Start, Completed and webserver run the following command to get the dependencies
+
+```
+npm install
+```
+
+### Client Side Code
+
+To compile and run the JS Code run the following command from either `Start` or `Completed` folder.
+```
+npm run start
+```
+
+### WebServer
+
+To start the webserver run the following command
+
+```
+node index.js
+```
 
 ## Available Scripts
 
@@ -61,3 +90,5 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
